@@ -25,11 +25,11 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x1875fcC416a92e04Ee23d2077203B02f3a51D0C0'
+export const FACTORY_ADDRESS = '0xf3aa029a9f6a1b3f41b0bdae2f7e2dffd30ebb13'
 
 export const INIT_CODE_HASH = '0x9b025805045f6da539a4926f67307a9b0ab5aaccc42d3f14aaea0776a5b727ac'
 export const INIT_CODE_HASH_ETH = '0xa852da7194a3edaba2a5a4545af11dda00ca97d89e0f9934bb841dffaa964220'
-export const INIT_CODE_HASH_HECO = '0x98ad1373410ddf186be4b9cf92e95897c01f8dfa821946759207d1a20ab5b4a3'
+export const INIT_CODE_HASH_HECO = '0xf72b1bfa0de188ad1a4b71bb308a2c57e71c358a10cbbac6e7a820f3e4ba004d'
 export const INIT_CODE_HASHES = {
   [ChainId.MAINNET]: INIT_CODE_HASH_ETH,
   [ChainId.ROPSTEN]: INIT_CODE_HASH_ETH,
